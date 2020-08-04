@@ -1,4 +1,4 @@
-# Proffy
+<img src="https://github.com/guilhermesantoss/proffy-nlw02/blob/master/printscreens/proffy_logo.png" alt="Proffy Logo" />
 
 <p>
   <img src="https://img.shields.io/github/repo-size/guilhermesantoss/proffy-nlw02" alt="Repository Size" />
