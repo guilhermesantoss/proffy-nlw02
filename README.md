@@ -11,6 +11,18 @@
 
 O projeto **Proffy** é uma aplicação com o objetivo de conectar Alunos com Professores para terem aulas online.
 
+## Executando a aplicação Web
+
+Navegue até o diretório "web/" e instale as dependências do projeto utilizando o comando:
+```bash
+$ npm install
+```
+
+Agora que as dependências estão devidamente instaladas, vamos executar utilizando o comando:
+```bash
+$ npm start
+```
+
 ## Tecnologias utilizadas
 
 <!--* [Node.js](https://nodejs.org/)-->
