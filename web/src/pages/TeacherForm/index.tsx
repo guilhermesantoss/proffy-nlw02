@@ -6,6 +6,7 @@ import Input from '../../components/Input';
 import warningIcon from '../../assets/images/icons/warning.svg';
 
 import './styles.css';
+import Textarea from '../../components/Textarea';
 
 const TeacherForm: React.FC = () => {
   return (
@@ -30,6 +31,10 @@ const TeacherForm: React.FC = () => {
           <Input
             name="whatsapp"
             label="Whatsapp"
+          />
+          <Textarea
+            name="bio"
+            label="Biografia"
           />
         </fieldset>
 
