@@ -45,9 +45,10 @@ $ npm start
 ## Tecnologias utilizadas
 
 * [Node.js](https://nodejs.org/)
+* [Express](https://expressjs.com/pt-br/)
+* [SQlite](https://www.sqlite.org/index.html)
+* [Knex.js](http://knexjs.org/)
 * [React](https://reactjs.org/)
-<!--* [React Native](https://reactnative.dev/)-->
-<!--* [Expo](https://expo.io/)-->
 * [Typescript](https://www.typescriptlang.org/)
 
 ## Licença
