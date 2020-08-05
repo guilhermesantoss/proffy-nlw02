@@ -7,6 +7,7 @@ import warningIcon from '../../assets/images/icons/warning.svg';
 
 import './styles.css';
 import Textarea from '../../components/Textarea';
+import Select from '../../components/Select';
 
 const TeacherForm: React.FC = () => {
   return (
@@ -41,9 +42,21 @@ const TeacherForm: React.FC = () => {
         <fieldset>
           <legend>Sobre a aula</legend>
 
-          <Input
+          <Select
             name="subject"
             label="Matéria"
+            options={[
+              { value: 'Artes', label: 'Artes' },
+              { value: 'Biologia', label: 'Biologia' },
+              { value: 'Ciências', label: 'Ciências' },
+              { value: 'Educação Física', label: 'Educação Física' },
+              { value: 'Geografia', label: 'Geografia' },
+              { value: 'História', label: 'Artes' },
+              { value: 'Matemática', label: 'Matemática' },
+              { value: 'Português', label: 'Português' },
+              { value: 'Química', label: 'Química' },
+              { value: 'Sociologia', label: 'Sociologia' },
+            ]}
           />
           <Input
             name="cost"
