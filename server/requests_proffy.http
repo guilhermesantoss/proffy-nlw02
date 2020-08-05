@@ -1,7 +1,6 @@
-GET https://api.github.com/users/guilhermesantoss HTTP/1.1
-
-###
-
+# ----------------------------------------------
+# AULAS
+# ----------------------------------------------
 # Criar uma aula
 POST http://localhost:3333/classes HTTP/1.1
 content-type: application/json
@@ -9,7 +8,7 @@ content-type: application/json
 {
   "name": "Guilherme Santos",
   "avatar": "https://avatars3.githubusercontent.com/u/16351117?s=460&u=157575a4f7bc20221f4693aa045fd800654c7016&v=4",
-  "whatsapp": "5511956564143",
+  "whatsapp": "5511956564142",
   "bio": "Trabalho como Front-End Developer desde 2012, onde comecei a minha aventura no mundo da Programação Web.",
   "subject": "Matemática",
   "cost": 60,
@@ -27,5 +26,23 @@ GET http://localhost:3333/classes
     ?week_day=1
     &subject=Matemática
     &time=9:00
+
+###
+
+# ----------------------------------------------
+# CONEXOES
+# ----------------------------------------------
+# Criar uma conexao
+POST http://localhost:3333/connections HTTP/1.1
+content-type: application/json
+
+{
+  "user_id": 1
+}
+
+###
+
+# Listar total de conexoes
+GET http://localhost:3333/connections HTTP/1.1
 
 ###
