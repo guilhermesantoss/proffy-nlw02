@@ -1,3 +1,7 @@
+
+#sqlite
+*.sqlite
+
 # Logs
 logs
 *.log
