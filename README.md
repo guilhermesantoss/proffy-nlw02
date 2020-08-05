@@ -11,6 +11,25 @@
 
 O projeto **Proffy** é uma aplicação com o objetivo de conectar Alunos com Professores para terem aulas online.
 
+## Executando o servidor
+
+Navegue até o diretório "server/" e instale todas as dependências do projeto utilizando o comando:
+```bash
+$ npm install
+```
+
+Agora vamos criar o Banco de Dados utilizando o comando:
+```bash
+$ npm run knex:migrate
+```
+
+Por fim, para deixar o servidor rodando, vamos executar o comando:
+```bash
+$ npm start
+```
+
+OBS: (Dentro da pasta server, tem um arquivo chamado ```requests_proffy.http```, que contém todas as requisições criadas durante a aula, para executa-las no seu Visual Studio Code, você precisa instalar um Plugin chamado [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)).
+
 ## Executando a aplicação Web
 
 Navegue até o diretório "web/" e instale as dependências do projeto utilizando o comando:
@@ -25,7 +44,7 @@ $ npm start
 
 ## Tecnologias utilizadas
 
-<!--* [Node.js](https://nodejs.org/)-->
+* [Node.js](https://nodejs.org/)
 * [React](https://reactjs.org/)
 <!--* [React Native](https://reactnative.dev/)-->
 <!--* [Expo](https://expo.io/)-->
