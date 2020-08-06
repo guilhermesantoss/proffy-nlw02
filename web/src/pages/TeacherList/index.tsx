@@ -85,7 +85,7 @@ const TeacherList: React.FC = () => {
           />
 
           <button type="submit">
-            Buscar
+            Filtrar
           </button>
         </form>
       </PageHeader>
@@ -102,15 +102,6 @@ const TeacherList: React.FC = () => {
             {proffyNotFound}
           </p>
         }
-        {/* 
-        
-        <TeacherItem
-          imgURL="https://avatars2.githubusercontent.com/u/6643122?s=460&u=1e9e1f04b76fb5374e6a041f5e41dce83f3b5d92&v=4"
-          name="Mayk Brito"
-          subject="Geografia"
-          description="As vezes não sei nem onde eu tô, mas consigo me localizar facilmente em qualquer lugar. Tenho memória fotográfica e nunca fico perdido. Eu ensino a galera como não se perder na vida, com lições geográficas simples pra você nunca mais precisar de mapa na sua bela vida."
-          priceHour={360}
-        /> */}
       </main>
     </div>
   );
