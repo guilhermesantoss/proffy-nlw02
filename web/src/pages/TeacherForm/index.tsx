@@ -52,6 +52,10 @@ const TeacherForm: React.FC = () => {
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
 
+    if (!name || !avatar || !whatsapp || !bio || !subject || !cost || !scheduleItems ) {
+      return;
+    }
+
     const data = {
       name,
       avatar,
@@ -68,7 +72,7 @@ const TeacherForm: React.FC = () => {
         history.push('/');
       })
       .catch(error => {
-        alert(error);
+        console.log(error);
       });
   }
 
