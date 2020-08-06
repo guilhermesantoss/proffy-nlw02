@@ -17,7 +17,7 @@ const Select: React.FC<SelectProps> = ({ name, label, options, placeholder, ...r
     <div className="select-block">
       <label htmlFor={name}>{label}</label>
       <select
-        defaultValue=""
+        value=""
         id={name}
         {...rest}
       >
