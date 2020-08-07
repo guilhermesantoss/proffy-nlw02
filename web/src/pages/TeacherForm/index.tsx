@@ -157,7 +157,7 @@ const TeacherForm: React.FC = () => {
             </legend>
             
             {scheduleItems.map((scheduleItem, index) => (
-              <div key={scheduleItem.week_day}className="schedule-item">
+              <div key={scheduleItem.week_day} className="schedule-item">
                 <Select
                   name="week_day"
                   label="Dia da semana"
