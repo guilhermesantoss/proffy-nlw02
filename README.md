@@ -1,5 +1,5 @@
 <img src="https://github.com/guilhermesantoss/proffy-nlw02/blob/master/printscreens/proffy_logo.png" alt="Proffy Logo" width="240" height="92" />
-<hr/>
+
 <p>
   <img src="https://img.shields.io/github/repo-size/guilhermesantoss/proffy-nlw02" alt="Repository Size" />
   <img src="https://img.shields.io/github/last-commit/guilhermesantoss/proffy-nlw02" alt="Last Commit" />
